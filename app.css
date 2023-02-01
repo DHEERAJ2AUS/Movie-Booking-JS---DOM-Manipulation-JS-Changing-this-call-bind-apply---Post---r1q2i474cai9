@@ -6,11 +6,11 @@
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 12px 16px;
-    color: #ffffff;
-    background-color: blue;
+    padding:  16px;
+    /* color: #ffffff; */
+    background-color:cyan;
 }
 
 .logo{
@@ -28,12 +28,14 @@ nav ul li{
 main{
     padding: 1rem;
     width: 100%;
+    /* background-color: burlywood; */
 }
 .movie-holder{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    
 }
 .movie-holder a{
     flex: 1;
@@ -74,6 +76,13 @@ main{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    background-color: cyan;
+    /* background-color: burlywood; */
+    text-align: center;
+    margin:70px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
 }
 #booker-grid-holder{
     display: grid;
